@@ -14,17 +14,17 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "hmmmm"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 948247711  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "kavinduaj"
-    SUPPORT_CHAT = "lkhitech"  # Your own group for support, do not add the @
+    API_ID = 21568806  # integer value, dont use ""
+    API_HASH = "83c41043d5ada58ad3dc95652afa70d5"
+    TOKEN = "6491531689:AAFaxNvZyiyPE8lhZlo2dNv45yZoHVjSSIQ"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1556830659  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "lochakpochak"
+    SUPPORT_CHAT = "its_witch_here"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -1001603027566
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1001603027566
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
@@ -35,7 +35,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "ZqWM2aI73puW4krk2lPnjz_SM0eC~q_nFxpGU066kJKUjU4fKMecVLt0sNFHBWNs"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
@@ -59,9 +59,9 @@ class Config(object):
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
-        "Hmm"  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "D5UJD8IQE34NXJ0O"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = "hmmmm"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = "F8NYGXSAEEC4"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
         "hmmm"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
